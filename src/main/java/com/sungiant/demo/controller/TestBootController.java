@@ -12,7 +12,7 @@ public class TestBootController {
     @RequestMapping("getuser")
     public User getUser() {
         User user = new User();
-        user.setName("test");
+        user.setUsername("test");
         return user;
     }
 }
